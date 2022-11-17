@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF00D5AE29269076002E2029 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00D5AD29269076002E2029 /* SwiftUIView.swift */; };
 		FFCC5CB429252B1E00FAF1A5 /* MusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCC5CB329252B1E00FAF1A5 /* MusicApp.swift */; };
-		FFCC5CB629252B1E00FAF1A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCC5CB529252B1E00FAF1A5 /* ContentView.swift */; };
 		FFCC5CB829252B1E00FAF1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5CB729252B1E00FAF1A5 /* Assets.xcassets */; };
 		FFCC5CBB29252B1E00FAF1A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5CBA29252B1E00FAF1A5 /* Preview Assets.xcassets */; };
 		FFCC5CC529252B1F00FAF1A5 /* MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCC5CC429252B1F00FAF1A5 /* MusicTests.swift */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF00D5AD29269076002E2029 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		FFCC5CB029252B1E00FAF1A5 /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCC5CB329252B1E00FAF1A5 /* MusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicApp.swift; sourceTree = "<group>"; };
-		FFCC5CB529252B1E00FAF1A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FFCC5CB729252B1E00FAF1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFCC5CBA29252B1E00FAF1A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FFCC5CC029252B1F00FAF1A5 /* MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				FFCC5CB329252B1E00FAF1A5 /* MusicApp.swift */,
-				FFCC5CB529252B1E00FAF1A5 /* ContentView.swift */,
+				FF00D5AD29269076002E2029 /* SwiftUIView.swift */,
 				FFCC5CB729252B1E00FAF1A5 /* Assets.xcassets */,
 				FFCC5CB929252B1E00FAF1A5 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFCC5CB629252B1E00FAF1A5 /* ContentView.swift in Sources */,
+				FF00D5AE29269076002E2029 /* SwiftUIView.swift in Sources */,
 				FFCC5CB429252B1E00FAF1A5 /* MusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
